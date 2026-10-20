@@ -1,0 +1,23 @@
+1. mkdir ~/lab
+2. ls -ld ~/lab
+3. chmod 750 ~/lab
+4. ls /boot > ~/lab/boot.txt
+5. mkdir -p ~/lab/dir1/dir2/dir3
+6. cat ../../boot.txt 
+7. touch ~/lab/tekst1.txt ~/lab/tekst2.txt ~/lab/tekst3.txt
+8. cp ~/lab/tekst*.txt ~/lab/dir1/dir2/dir3/
+9. echo "this is secret" > ~/lab/.secret.txt
+10. mv ~/lab/dir1/dir2/dir3/tekst3.txt ~/lab/dir1/dir2/dir3/tekst4.txt
+11. cat /proc/meminfo > ~/lab/tekst1.txt
+12. cat /proc/cpuinfo >> ~/lab/tekst1.txt 
+13. whoami > ~/lab/tekst2.txt
+14. sudo find / -name share
+15. find /usr/bin -size +5M
+16. find /usr/bin -size +300c -size -500c -exec cp -t ~/lab {} \;
+17. ln ~/lab/tekst2.txt ~/lab/TEKST2.TXT
+18. ln -s ~/lab/tekst2.txt ~/lab/Tekst2.txt
+19. ls -a ~/lab
+20. ls /dev/ | grep "tty"
+21. man ls
+    (ls -R <path>)
+
